@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use(
   cors({
-    origin: "*", 
+    origin: "https://todoapp20039.netlify.app",
     credentials: true,
   })
 );
